@@ -2,3 +2,37 @@ Alumnos participantes:
 Dieguez Fernando
 Bernardis Matias
 Zoppetti Martin
+
+e- realizar un listado, paso a paso ,de los comando necesarios para resolver este TP por
+orden de ejecución de los mismos junto con los apellidos y nombre de los alumnos
+
+BETA - git init -> Zoppetti Martin
+BETA - git add .-> Zoppetti Martin
+BETA - git commit -m "creado repo y datos.txt"-> Zoppetti Martin-> Zoppetti Martin
+BETA - git push -> Zoppetti Martin
+
+GAMMA - ALFA - fork ->  Bernardis Matias / Dieguez Fernando
+GAMMA - ALFA - git clone https://github.com/<GAMMA/ALFA>/TP_SO_i2_Equipo.git ->  Bernardis Matias / Dieguez Fernando
+GAMMA - ALFA - git add . ->  Bernardis Matias / Dieguez Fernando
+GAMMA - ALFA - git commit -m "modificado datos.txt" ->  Bernardis Matias / Dieguez Fernando
+GAMMA - ALFA - git push ->  Bernardis Matias / Dieguez Fernando
+
+BETA - git add .  -> Zoppetti Martin
+BETA - git commit -m "Creado nuevodato.txt" -> Zoppetti Martin
+BETA - git push -> Zoppetti Martin
+
+GAMMA - ALFA - git fetch https://github.com/Martin-Zoppetti/TP_SO_i2_Equipo.git ->  Bernardis Matias / Dieguez Fernando
+GAMMA - ALFA - git merge FETCH_HEAD ->  Bernardis Matias / Dieguez Fernando
+GAMMA - ALFA - git push ->  Bernardis Matias / Dieguez Fernando
+
+GAMMA - ALFA - git add . ->  Bernardis Matias / Dieguez Fernando
+GAMMA - ALFA - git commit -m "cargo respuestas" ->  Bernardis Matias / Dieguez Fernando
+GAMMA - ALFA - git push ->  Bernardis Matias / Dieguez Fernando
+
+GAMMA - ALFA - PR creado desde la web  ->  Bernardis Matias / Dieguez Fernando
+
+BETA - aprueba PR y mergea desde la web -> Zoppetti Martin
+
+GAMMA - ALFA - git fetch https://github.com/Martin-Zoppetti/TP_SO_i2_Equipo.git ->  Bernardis Matias / Dieguez Fernando
+GAMMA - ALFA - git merge FETCH_HEAD ->  Bernardis Matias / Dieguez Fernando
+GAMMA - ALFA - git push ->  Bernardis Matias / Dieguez Fernando
