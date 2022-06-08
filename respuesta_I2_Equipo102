@@ -29,4 +29,10 @@ GAMMA - ALFA - git add . ->  Bernardis Matias / Dieguez Fernando
 GAMMA - ALFA - git commit -m "cargo respuestas" ->  Bernardis Matias / Dieguez Fernando
 GAMMA - ALFA - git push ->  Bernardis Matias / Dieguez Fernando
 
-GAMMA - ALFA - gh pr create ->  Bernardis Matias / Dieguez Fernando
+GAMMA - ALFA - PR creado desde la web  ->  Bernardis Matias / Dieguez Fernando
+
+BETA - aprueba PR y mergea desde la web -> Zoppetti Martin
+
+GAMMA - ALFA - git fetch https://github.com/Martin-Zoppetti/TP_SO_i2_Equipo.git ->  Bernardis Matias / Dieguez Fernando
+GAMMA - ALFA - git merge FETCH_HEAD ->  Bernardis Matias / Dieguez Fernando
+GAMMA - ALFA - git push ->  Bernardis Matias / Dieguez Fernando
