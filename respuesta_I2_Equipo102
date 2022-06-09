@@ -2,6 +2,15 @@ Alumnos participantes:
 Dieguez Fernando
 Bernardis Matias
 Zoppetti Martin
+c-¿Puede GAMMA actualizar su FORK al estado del fork de ALFA?
+
+GAMMA puede obtener los cambios hechos en el fork de alfa solo si ALFA haya actualizado con anterioridad los datos en el repositorio de BETA
+
+
+d-¿Los datos que tenía en mi repositorio , editados por mi, se pierden si quiero actualizar.
+el fork?
+
+No, los cambios existen localmente y en mi repositorio, se traen los cambios remotos, si es necesario se realiza un merge para resolver conflictos
 
 e- realizar un listado, paso a paso ,de los comando necesarios para resolver este TP por
 orden de ejecución de los mismos junto con los apellidos y nombre de los alumnos
