@@ -1,0 +1,68 @@
+Alumnos participantes:
+Dieguez Fernando
+Bernardis Matias
+Zoppetti Martin
+
+a-¿Como actualizo mi repositorio, al estado que esté el repo que hice FORK?
+Se hace un git fetch <repositorio original> luego ahi se muestra el branch que genero localmente con el cual se hace
+git merge <nombre branch local> (ej FETCH_HEAD) eso actualiza nuestro branch local con los cambios del repo remoto.
+Luego se hace un push de esos cambios locales al fork propio.
+
+b-¿Puede ALFA actualizar su FORK al estado del fork de GAMMA?
+Si, solo si GAMMA genera un pull request y es aprobado y luego mergeado
+
+c-¿Puede GAMMA actualizar su FORK al estado del fork de ALFA?
+Si, haciendo un fetch <repo ALFA> y pull 
+
+d-¿Los datos que tenía en mi repositorio , editados por mi, se pierden si quiero actualizar.
+el fork?
+No, los cambios existen localmente y en mi repositorio, se traen los cambios remotos, si es necesario se realiza un merge para resolver conflictos
+
+e- realizar un listado, paso a paso ,de los comando necesarios para resolver este TP por
+orden de ejecución de los mismos junto con los apellidos y nombre de los alumnos
+
+BETA - git init -> Zoppetti Martin
+BETA - git add .-> Zoppetti Martin
+BETA - git commit -m "creado repo y datos.txt"-> Zoppetti Martin-> Zoppetti Martin
+BETA - git push -> Zoppetti Martin
+
+ALFA - fork de BETA->  Dieguez Fernando
+GAMMA - fork de ALFA ->  Dieguez Fernando
+ALFA - git clone https://github.com/ALFA/TP_SO_i2_Equipo.git ->  Dieguez Fernando
+GAMMA - git clone https://github.com/GAMMA/TP_SO_i2_Equipo.git ->  Bernardis Matias
+
+GAMMA - ALFA - git add . ->  Bernardis Matias / Dieguez Fernando
+GAMMA - ALFA - git commit -m "modificado datos.txt" ->  Bernardis Matias / Dieguez Fernando
+GAMMA - ALFA - git push ->  Bernardis Matias / Dieguez Fernando
+
+BETA - git add . -> Zoppetti Martin
+BETA - git commit -m "Creado nuevodato.txt" -> Zoppetti Martin
+BETA - git push -> Zoppetti Martin
+
+GAMMA - ALFA - git fetch <repo ALFA/ repo BETA> ->  Bernardis Matias / Dieguez Fernando
+GAMMA - ALFA - git merge FETCH_HEAD ->  Bernardis Matias / Dieguez Fernando
+GAMMA - ALFA - git push ->  Bernardis Matias / Dieguez Fernando
+
+GAMMA - ALFA - git add . ->  Bernardis Matias / Dieguez Fernando
+GAMMA - ALFA - git commit -m "cargo respuestas" ->  Bernardis Matias / Dieguez Fernando
+GAMMA - ALFA - git push ->  Bernardis Matias / Dieguez Fernando
+
+ALFA - PR creado desde la web a BETA -> Dieguez Fernando
+GAMMA - PR creado desde la web a ALFA -> Bernardis Matias
+BETA - aprueba PR y mergea desde la web -> Zoppetti Martin
+
+ALFA - git pull https://github.com/BernardisMatias/TP_SO_i2_Equipo.git main  -> Dieguez Fernando
+ALFA - Merge manual de conflictos  -> Dieguez Fernando
+ALFA - git add .  -> Dieguez Fernando
+ALFA - git commit -m "merge manual"  -> Dieguez Fernando
+ALFA - git push  -> Dieguez Fernando
+ALFA - git checkout main  -> Dieguez Fernando
+ALFA - git merge BernardisMatias-main -> Dieguez Fernando
+ALFA - git push -> Dieguez Fernando
+ALFA - actualizo documento -> Dieguez Fernando
+ALFA - git add .  -> Dieguez Fernando
+ALFA - git commit -m "modifico documento respuestas"  -> Dieguez Fernando
+ALFA - git push -> Dieguez Fernando
+ALFA - PR creado desde la web a BETA -> Dieguez Fernando
+
+BETA - aprueba PR -> Zoppetti Martin
